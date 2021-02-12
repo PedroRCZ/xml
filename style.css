@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(bg.jpg) #dbcbcb;
+    background-size: cover;
+    color: rgb(245, 236, 236);
+    font-size: 16px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.widget {
+    width: 50%;
+    margin: 2em;
+    margin: auto;
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.cabecera {
+    margin-top: 3rem;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.2125rem;
+    /*margin-bottom: 5px;*/
+    background: rgba(116, 63, 202, 0.89);
+    padding: 40px;
+    width: 100%;
+    color: white;
+}
+
+.demo-s {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 0.50em;
+    margin-bottom: 5px;
+    background: rgba(136, 141, 182, 0.678);
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+
+.tema {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.button {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    background-color: #4c45acc5;
+    border: none;
+    margin-bottom: 5px;
+    text-align: center;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
